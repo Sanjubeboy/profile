@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  .btn{
+    @apply bg-blue-500 text-white font-bold px-3 py-3 rounded-md
+  }
+
+  .link{
+    @apply cursor-pointer hover:scale-105
+  }
+
+  .about {
+    @apply rounded-md
+  }
+
+  .about h1{
+    @apply text-3xl mb-8 
+  }
+
+  .about li{
+    @apply mb-2 list-disc ml-4 text-lg
+  }
+}
